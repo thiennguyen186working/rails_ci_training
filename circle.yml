@@ -5,3 +5,5 @@ dependencies:
 deployment:
   production:
     branch: master
+    heroku:
+      appname: tiny-training-ci-app
