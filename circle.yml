@@ -4,4 +4,4 @@ dependencies:
 
 deployment:
   production:
-    branch: production
+    branch: master
