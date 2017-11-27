@@ -6,6 +6,6 @@ deployment:
   production:
     branch: master
     commands: 
-      - heroku run rake db:migrate cache:clear --app tiny-training-ci-app
+      - heroku run rake db:migrate --app tiny-training-ci-app
     heroku:
       appname: tiny-training-ci-app
